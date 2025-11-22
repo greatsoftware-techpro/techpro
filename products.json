@@ -90,18 +90,34 @@
   "default": [
     {
       "id": "prod_us_001",
-      "name": "Pro Analytica Suite (Global Edition)",
-      "description": "Advanced data analysis tool for global markets.",
+      "name": "Global Analytica Suite",
+      "description": "Our flagship advanced data analysis tool for global markets. Integrates with multiple data sources to provide deep insights.",
       "image_url": "https://placehold.co/600x400/34495e/white?text=Analytica+Global",
       "price": "$99 USD",
       "buy_url": "https://your-payment-provider-link-here"
     },
     {
       "id": "prod_us_002",
-      "name": "CodeStream Pro",
+      "name": "CodeStream Pro Editor",
       "description": "Full-featured professional code editor.",
       "image_url": "https://placehold.co/600x400/7f8c8d/white?text=CodeStream+Pro",
       "price": "$49 USD",
+      "buy_url": "https://your-payment-provider-link-here"
+    },
+    {
+      "id": "prod_global_003",
+      "name": "VPS Reseller Business Suite",
+      "description": "Launch your own VPS hosting business. This software automates client and server management with third-party providers.",
+      "image_url": "https://placehold.co/600x400/2ecc71/white?text=VPS+Suite",
+      "price": "$149 USD",
+      "buy_url": "https://your-payment-provider-link-here"
+    },
+    {
+      "id": "prod_global_004",
+      "name": "Forex Trading Agents (EA)",
+      "description": "Automated Expert Advisor (EA) bots for MT4/MT5. Let our agents monitor markets and execute trades based on your strategy.",
+      "image_url": "https://placehold.co/600x400/2980b9/white?text=Forex+Agents",
+      "price": "$89 USD",
       "buy_url": "https://your-payment-provider-link-here"
     }
   ]

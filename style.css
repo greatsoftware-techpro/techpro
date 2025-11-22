@@ -1,13 +1,15 @@
 /* General Body Styles */
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
     scroll-behavior: smooth;
 }
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(45deg, #2c3e50, #3498db);
+    background: linear-gradient(45deg, #434343 0%, black 100%);
     padding: 100px 0;
+    background-size: 400% 400%;
 }
 
 /* Features Section */
@@ -20,7 +22,23 @@ body {
     color: #3498db;
 }
 
+/* About Section */
+.about-section {
+    background-color: #ffffff;
+}
+
 /* Individual Product Card */
+.product-card {
+    animation: fadeIn 0.5s ease-in-out forwards;
+    opacity: 0;
+    animation-fill-mode: both;
+}
+
+/* Stagger the animation for each card */
+.product-card:nth-child(2) { animation-delay: 0.1s; }
+.product-card:nth-child(3) { animation-delay: 0.2s; }
+.product-card:nth-child(4) { animation-delay: 0.3s; }
+
 .product-card {
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
@@ -48,3 +66,11 @@ body {
     height: 200px;
     object-fit: cover;
 }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.btn-primary { background-color: #3498db; border-color: #3498db; }
+.btn-primary:hover { background-color: #2980b9; border-color: #2980b9; }
