@@ -1,0 +1,52 @@
+{
+  "IN": [
+    {
+      "id": "prod_in_001",
+      "name": "Pro Analytica Suite (India Edition)",
+      "description": "Advanced data analysis tool, optimized for Indian market data.",
+      "price": "₹4,999",
+      "buy_url": "https://your-payment-provider-link-here"
+    },
+    {
+      "id": "prod_in_002",
+      "name": "CodeStream Lite (India Edition)",
+      "description": "A lightweight code editor for fast development.",
+      "price": "₹1,499",
+      "buy_url": "https://your-payment-provider-link-here"
+    }
+  ],
+  "CA": [
+    {
+      "id": "prod_ca_001",
+      "name": "Pro Analytica Suite (North America)",
+      "description": "Advanced data analysis tool with NA-specific integrations.",
+      "price": "$99 CAD",
+      "buy_url": "https://your-payment-provider-link-here"
+    }
+  ],
+  "FR": [
+    {
+      "id": "prod_fr_001",
+      "name": "Suite Analytica Pro (Édition Europe)",
+      "description": "Outil d'analyse de données avancé, conforme au RGPD.",
+      "price": "€89",
+      "buy_url": "https://your-payment-provider-link-here"
+    }
+  ],
+  "default": [
+    {
+      "id": "prod_us_001",
+      "name": "Pro Analytica Suite (Global Edition)",
+      "description": "Advanced data analysis tool for global markets.",
+      "price": "$99 USD",
+      "buy_url": "https://your-payment-provider-link-here"
+    },
+    {
+      "id": "prod_us_002",
+      "name": "CodeStream Pro",
+      "description": "Full-featured professional code editor.",
+      "price": "$49 USD",
+      "buy_url": "https://your-payment-provider-link-here"
+    }
+  ]
+}
