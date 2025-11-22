@@ -12,13 +12,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Build the HTML for each product card
         const productsHTML = products.map(product => `
-            <div class="col-lg-4 col-md-6">
-                <div class="card product-card shadow-sm">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="card product-card shadow-sm w-100">
+                    <img src="${product.image_url}" class="card-img-top" alt="${product.name}">
                     <div class="card-body">
                         <h5 class="card-title">${product.name}</h5>
                         <p class="card-text text-muted">${product.description}</p>
-                        <p class="product-price text-primary">${product.price}</p>
-                        <a href="${product.buy_url}" class="btn btn-success w-100" target="_blank" rel="noopener noreferrer">Buy Now</a>
+                        <div class="mt-auto">
+                            <p class="product-price text-primary mb-2">${product.price}</p>
+                            <a href="${product.buy_url}" class="btn btn-success w-100" target="_blank" rel="noopener noreferrer">Buy Now</a>
+                        </div>
                     </div>
                 </div>
             </div>

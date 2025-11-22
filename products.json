@@ -4,6 +4,7 @@
       "id": "prod_in_003",
       "name": "IRCTC Booking Helper",
       "description": "An assistant tool to streamline your IRCTC ticket booking process. Helps manage forms and alerts for Tatkal openings. (This is a helper tool and not affiliated with IRCTC.)",
+      "image_url": "https://placehold.co/600x400/3498db/white?text=Booking+Helper",
       "price": "₹999",
       "buy_url": "https://your-payment-provider-link-here"
     },
@@ -11,6 +12,7 @@
       "id": "prod_in_004",
       "name": "VPS Resale Business Suite",
       "description": "Launch your own VPS hosting business. This software integrates with affordable third-party server providers to automate client and server management.",
+      "image_url": "https://placehold.co/600x400/2ecc71/white?text=VPS+Suite",
       "price": "₹7,999",
       "buy_url": "https://your-payment-provider-link-here"
     },
@@ -18,6 +20,7 @@
       "id": "prod_in_005",
       "name": "Aviator Game Strategy Kit",
       "description": "A comprehensive analytics and strategy setup for popular prediction games like Aviator. Analyze trends and manage your strategy. (For entertainment and strategic analysis only.)",
+      "image_url": "https://placehold.co/600x400/e74c3c/white?text=Aviator+Kit",
       "price": "₹2,499",
       "buy_url": "https://your-payment-provider-link-here"
     },
@@ -25,6 +28,7 @@
       "id": "prod_in_006",
       "name": "Sports Betting Analytics Pro",
       "description": "Gain an edge with data. This tool provides deep analytics, odds tracking, and historical data for various sports to help you build informed betting strategies. (Does not facilitate betting.)",
+      "image_url": "https://placehold.co/600x400/f39c12/white?text=Analytics+Pro",
       "price": "₹3,499",
       "buy_url": "https://your-payment-provider-link-here"
     }
@@ -34,6 +38,7 @@
       "id": "prod_ca_001",
       "name": "Pro Analytica Suite (North America)",
       "description": "Advanced data analysis tool with NA-specific integrations.",
+      "image_url": "https://placehold.co/600x400/9b59b6/white?text=Analytica+NA",
       "price": "$99 CAD",
       "buy_url": "https://your-payment-provider-link-here"
     }
@@ -43,6 +48,7 @@
       "id": "prod_fr_001",
       "name": "Suite Analytica Pro (Édition Europe)",
       "description": "Outil d'analyse de données avancé, conforme au RGPD.",
+      "image_url": "https://placehold.co/600x400/1abc9c/white?text=Analytica+EU",
       "price": "€89",
       "buy_url": "https://your-payment-provider-link-here"
     }
@@ -52,6 +58,7 @@
       "id": "prod_us_001",
       "name": "Pro Analytica Suite (Global Edition)",
       "description": "Advanced data analysis tool for global markets.",
+      "image_url": "https://placehold.co/600x400/34495e/white?text=Analytica+Global",
       "price": "$99 USD",
       "buy_url": "https://your-payment-provider-link-here"
     },
@@ -59,6 +66,7 @@
       "id": "prod_us_002",
       "name": "CodeStream Pro",
       "description": "Full-featured professional code editor.",
+      "image_url": "https://placehold.co/600x400/7f8c8d/white?text=CodeStream+Pro",
       "price": "$49 USD",
       "buy_url": "https://your-payment-provider-link-here"
     }
