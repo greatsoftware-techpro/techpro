@@ -12,11 +12,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Build the HTML for each product card
         const productsHTML = products.map(product => `
-            <div class="product-card">
-                <h3>${product.name}</h3>
-                <p class="product-description">${product.description}</p>
-                <p class="product-price">${product.price}</p>
-                <a href="${product.buy_url}" class="buy-button" target="_blank" rel="noopener noreferrer">Buy Now</a>
+            <div class="col-lg-4 col-md-6">
+                <div class="card product-card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">${product.name}</h5>
+                        <p class="card-text text-muted">${product.description}</p>
+                        <p class="product-price text-primary">${product.price}</p>
+                        <a href="${product.buy_url}" class="btn btn-success w-100" target="_blank" rel="noopener noreferrer">Buy Now</a>
+                    </div>
+                </div>
             </div>
         `).join(''); // Join all card HTML strings into one
 
@@ -33,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const allCatalogs = await productsResponse.json();
 
             // 2. Fetch user's location from a free IP Geolocation API
-            const locationResponse = await fetch('https://ipapi.co/json/');
+            const locationResponse = await fetch('https://ipapi.co/json/?key=YOUR_API_KEY'); // Replace with your key if you have one
             if (!locationResponse.ok) throw new Error('Failed to determine location.');
             const locationData = await locationResponse.json();
 
@@ -49,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         } catch (error) {
             console.error('Error:', error);
-            // If anything fails, show an error message and load the default catalog as a fallback
+            // If anything fails, show an error message and try to load the default catalog as a fallback
             productCatalogDiv.innerHTML = `<p>Sorry, we had trouble loading products for your region. Showing our global catalog.</p>`;
             try {
                 const productsResponse = await fetch('products.json');

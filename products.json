@@ -1,17 +1,31 @@
 {
   "IN": [
     {
-      "id": "prod_in_001",
-      "name": "Pro Analytica Suite (India Edition)",
-      "description": "Advanced data analysis tool, optimized for Indian market data.",
-      "price": "₹4,999",
+      "id": "prod_in_003",
+      "name": "IRCTC Booking Helper",
+      "description": "An assistant tool to streamline your IRCTC ticket booking process. Helps manage forms and alerts for Tatkal openings. (This is a helper tool and not affiliated with IRCTC.)",
+      "price": "₹999",
       "buy_url": "https://your-payment-provider-link-here"
     },
     {
-      "id": "prod_in_002",
-      "name": "CodeStream Lite (India Edition)",
-      "description": "A lightweight code editor for fast development.",
-      "price": "₹1,499",
+      "id": "prod_in_004",
+      "name": "VPS Resale Business Suite",
+      "description": "Launch your own VPS hosting business. This software integrates with affordable third-party server providers to automate client and server management.",
+      "price": "₹7,999",
+      "buy_url": "https://your-payment-provider-link-here"
+    },
+    {
+      "id": "prod_in_005",
+      "name": "Aviator Game Strategy Kit",
+      "description": "A comprehensive analytics and strategy setup for popular prediction games like Aviator. Analyze trends and manage your strategy. (For entertainment and strategic analysis only.)",
+      "price": "₹2,499",
+      "buy_url": "https://your-payment-provider-link-here"
+    },
+    {
+      "id": "prod_in_006",
+      "name": "Sports Betting Analytics Pro",
+      "description": "Gain an edge with data. This tool provides deep analytics, odds tracking, and historical data for various sports to help you build informed betting strategies. (Does not facilitate betting.)",
+      "price": "₹3,499",
       "buy_url": "https://your-payment-provider-link-here"
     }
   ],
