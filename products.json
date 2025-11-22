@@ -33,6 +33,40 @@
       "buy_url": "https://your-payment-provider-link-here"
     }
   ],
+  "KE": [
+    {
+      "id": "prod_ke_001",
+      "name": "Aviator Software Setup",
+      "description": "Complete setup and configuration service for your Aviator game analytics software. Get started with professional installation.",
+      "image_url": "https://placehold.co/600x400/e74c3c/white?text=Aviator+Setup",
+      "price": "KSh 3,499",
+      "buy_url": "https://your-payment-provider-link-here"
+    },
+    {
+      "id": "prod_ke_002",
+      "name": "Aviator Performance Tool",
+      "description": "An advanced modification tool to analyze game patterns and enhance performance. Use responsibly and for analytical purposes.",
+      "image_url": "https://placehold.co/600x400/c0392b/white?text=Performance+Tool",
+      "price": "KSh 4,499",
+      "buy_url": "https://your-payment-provider-link-here"
+    },
+    {
+      "id": "prod_ke_003",
+      "name": "Betting Predictor AI",
+      "description": "Leverage AI to get predictions for upcoming sports matches. Our algorithm analyzes historical data to provide statistical insights.",
+      "image_url": "https://placehold.co/600x400/f39c12/white?text=Predictor+AI",
+      "price": "KSh 2,999",
+      "buy_url": "https://your-payment-provider-link-here"
+    },
+    {
+      "id": "prod_ke_004",
+      "name": "Forex Trading Agents (EA)",
+      "description": "Automated Expert Advisor (EA) bots for MT4/MT5 platforms. Let our agents monitor the market and execute trades based on your strategy.",
+      "image_url": "https://placehold.co/600x400/2980b9/white?text=Forex+Agents",
+      "price": "KSh 4,999",
+      "buy_url": "https://your-payment-provider-link-here"
+    }
+  ],
   "CA": [
     {
       "id": "prod_ca_001",
